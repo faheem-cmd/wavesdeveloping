@@ -1,0 +1,173 @@
+*
+{
+	margin: 0;
+	padding:0;
+
+}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pic.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+
+}
+
+.main-nav li
+{
+	display: inline-block;
+
+}
+
+.main-nav li a
+{
+	 color: white;
+	 text-decoration: none;
+	 
+	 font-family: "Roboto",sans-srief;
+	 font-size: 15px;
+
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+	color: orange;
+}
+
+.main-nav {
+	width: 100%;
+	
+	text-align:right;
+	background-color: #0009;
+	box-shadow: 1px 2px 4px grey;
+}
+ .main-nav li{
+ 	list-style-type: none;
+ 	display: inline-block;
+ 	padding: 40px; 	
+ }
+ .main-nav li a
+ {
+ 	color:white;
+ }
+.main-nav li.active a{
+	border: 1px solid white;
+}
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+ li.c2 a{
+	color: darkorange;
+}
+
+section#total section.spotlight h3{
+	text-align: center;
+	font-size: 60px;
+	color: #0009;
+}
+ section#footer{
+ 	background: linear-gradient(to right,#0009,#0009);
+ 	padding: 10px 0;
+ 	color: #0009;
+ }
+ section#footer a img{
+ 	width: 18px;
+ }
+
+ section#footer a.rigtho{
+ 	float: right;
+ 	color: #0009;
+ }
+ section#footer a.center{
+ 	float: left;
+ 	color: #0009;
+ }
+body
+{
+	font-family:monospace;
+}
+
+.hero{
+	position: absolute;
+	width: 1270px;
+    margin-left:0px;
+	margin-top: 0px;
+
+}
+
+h1{
+	color: white;
+	text-transform: uppercase;
+	font-size: 70px;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.button{
+	margin-top: 30px;
+	margin-left: 440px;
+
+}
+
+.btn{
+	border: 1px solid white;
+	padding: 10px 40px;
+	color: white;
+	text-decoration:none;
+	margin-right: 5px;
+   font-size: 13px;
+   text-transform: uppercase;
+}
+
+.btn-one{
+background-color: darkorange;
+font-family: "Roboto",sans-srief;
+}
+
+.btn-two
+{
+	font-family: "Roboto",sans-srief;
+}
+
+.btn-two:hover{
+	background-color: darkorange;
+	transition: all 0.5s ease-in;
+}
+
+
+.hero2{
+	position: absolute;
+	width: 1270px;
+    margin-left:0px;
+	margin-top: 0px;
+
+	
+
+}
+h2{
+	color:white;
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align:center;
+	margin-top: 15px;
+}
+
+
+.logo img{
+	width: 150px;
+	height:auto;
+
+}
+
+
+
+
